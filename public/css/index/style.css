@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #eeeeeeef;
+}
+.navbar{
+    background-color: white;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    text-decoration: none;
+    color: black;
+}
+.nav-link{
+    padding: 0px 15px !important;
+}
+.img-navbar{
+    width: 31px;
+    height: 31px;
+    border-radius: 50%; 
+}
+.dropdown-toggle::after{
+    display: none;
+}
+.icon{
+    font-size: 25px;
+}
+.content{
+    margin-top: 75px;
+}
+.side{
+    position: fixed;
+    width: 26.5%;
+}
+.image-profile{
+    width: 110px !important;
+    height: 110px !important;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.img-profile-side-up{
+    width: 72px !important;
+    height: 72px !important;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.side-up{
+    border-radius: 20px;
+    border: none;
+}
+.img-profile-side-down{
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%; 
+    object-fit: cover;
+}
+.side-down{
+    border-radius: 20px;
+    border: none;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+}
+.btn{
+    background-color: #5F9FFF;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    height: 40px;
+}
+.icon{
+    font-size: 22px;
+    margin-right: 15px;
+}
+.pagination{
+    overflow-x: scroll;
+}
+.actv{
+    background-color: #5F9FFF !important; 
+    color: white;
+}
+.editlinks:hover{
+    background-color: #5F9FFF;
+    color: white;
+    cursor: pointer;
+}
+.actve{
+    color: #5F9FFF !important;
+}
+.profilelinks:hover{
+    color: #5F9FFF !important;
+    cursor: pointer;
+}
+.iconComments:hover{
+    color: #5F9FFF;
+}
+.viewComments:hover{
+    color: #5F9FFF !important;
+    cursor: pointer;
+}
+.iconHeart:hover{
+    color: red;
+}
+.iconBookmark:hover{
+    color: #747474;
+}
+.settingBtn:hover{
+    background-color: #ececec !important;
+}
+/* //Comments */
+.comments{
+    position: fixed;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    transform: translate(0%, 0%) scale(0);
+    
+}
+.comments .content{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    height: 80vh;
+}
+.comments .close{
+    position: absolute;
+    right: 2%;
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+}
+.comments .close:hover{
+    color: #5F9FFF;
+}
+.comments.active{
+    transition: all 200ms ease-in-out;
+    transform: translate(0%, 0%) scale(1);
+}
+body.active{
+    overflow: hidden;
+}
+
+
+
+@media (min-width: 992px) and (max-width: 1264px) {
+    .img-profile-side-up{
+        width: 60px !important;
+    }
+    .side-up .h5{
+        font-size: 17px;
+    }
+    .side-up p{
+        font-size: 13px;
+    }
+}
