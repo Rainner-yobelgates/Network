@@ -37,7 +37,7 @@
                             <a class="nav-link icon" href="{{ route('explore') }}"><i class="fas fa-compass"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link icon" href="#"><i class="fas fa-comments"></i></a>
+                            <a class="nav-link icon" href="/chatify"><i class="fas fa-comments"></i></a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
